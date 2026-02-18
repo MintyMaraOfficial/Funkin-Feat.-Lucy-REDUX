@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="neo-gacha.png">
+<SubTexture name="idle0000" x="1042" y="0" width="255" height="647" frameX="-38" frameY="-27" frameWidth="346" frameHeight="696" />
+<SubTexture name="singUP0000" x="0" y="0" width="246" height="674" frameX="-43" frameY="0" frameWidth="346" frameHeight="696" />
+<SubTexture name="singUP0001" x="786" y="0" width="256" height="653" frameX="-38" frameY="-21" frameWidth="346" frameHeight="696" />
+<SubTexture name="singDOWN0000" x="532" y="674" width="328" height="463" frameX="-24" frameY="-239" frameWidth="346" frameHeight="696" />
+<SubTexture name="singDOWN0001" x="241" y="674" width="291" height="511" frameX="-37" frameY="-190" frameWidth="346" frameHeight="696" />
+<SubTexture name="singLEFT0000" x="246" y="0" width="275" height="654" frameX="0" frameY="-25" frameWidth="346" frameHeight="696" />
+<SubTexture name="singLEFT0001" x="521" y="0" width="265" height="654" frameX="-33" frameY="-25" frameWidth="346" frameHeight="696" />
+<SubTexture name="singRIGHT0000" x="1297" y="0" width="238" height="646" frameX="-40" frameY="-34" frameWidth="346" frameHeight="696" />
+<SubTexture name="singRIGHT0001" x="0" y="674" width="241" height="646" frameX="-16" frameY="-34" frameWidth="346" frameHeight="696" />
+</TextureAtlas>

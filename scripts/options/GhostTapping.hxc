@@ -1,0 +1,43 @@
+import Std;
+import Type;
+
+import flixel.FlxG;
+
+import funkin.ui.options.OptionsState;
+import funkin.modding.module.Module;
+
+class GhostTappingConfig extends Module {
+    var enabled:Bool = true;
+
+    function new() {
+        super("Ghost Tapping", 1);
+
+        if(FlxG.save.data.enabled == null)
+            FlxG.save.data.enabled = true;
+
+        enabled = FlxG.save.data.enabled;
+    }
+
+
+    var inOptions:Bool = false;
+
+    override function onStateChangeEnd(event) {
+        super.onStateChangeEnd(event);
+        inOptions = false;
+        if(Std.isOfType(event.targetState, OptionsState)) {
+			trace();
+            var prefs = event.targetState.optionsCodex.pages.get("preferences");
+            inOptions = true;
+
+            prefs.createPrefItemCheckbox("Ghost Tapping", "Disables the penalty when hitting the strumline while there are no notes", function(value) {
+                FlxG.save.data.enabled = value;
+                enabled = value;
+            }, FlxG.save.data.enabled);
+        }
+    }
+
+    override function onNoteGhostMiss(event) {
+        super.onNoteGhostMiss(event);
+        if(enabled) { event.cancel(); event.stopPropagation(); }
+    }
+}

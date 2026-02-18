@@ -1,0 +1,67 @@
+{
+    "version": "1.0.0",
+    "name": "Neo (Gacha)",
+    "assetPath": "characters/Neo",
+    "singTime": 8,
+    "isPixel": false,
+    "scale": 0.9,
+    "healthIcon": {
+        "id": "face",
+        "isPixel": false,
+        "flipX": false,
+        "scale": 1
+    },
+    "animations": [
+        {
+            "name": "idle",
+            "prefix": "idle",
+            "offsets": [
+                -10,
+                -194
+            ],
+            "frameRate": 11,
+            "frameIndices": []
+        },
+        {
+            "name": "singLEFT",
+            "prefix": "singLEFT",
+            "offsets": [
+                70,
+                -237
+            ],
+            "frameRate": 13,
+            "frameIndices": []
+        },
+        {
+            "name": "singDOWN",
+            "prefix": "singDOWN",
+            "offsets": [
+                10,
+                -250
+            ],
+            "frameRate": 13,
+            "frameIndices": []
+        },
+        {
+            "name": "singUP",
+            "prefix": "singUP",
+            "offsets": [
+                -70,
+                -141
+            ],
+            "frameRate": 13,
+            "frameIndices": []
+        },
+        {
+            "name": "singRIGHT",
+            "prefix": "singRIGHT",
+            "offsets": [
+                -56,
+                -220
+            ],
+            "frameRate": 13,
+            "frameIndices": []
+        }
+    ],
+    "flipX": true
+}

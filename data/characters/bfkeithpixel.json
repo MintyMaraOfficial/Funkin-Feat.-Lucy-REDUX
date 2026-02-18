@@ -1,0 +1,160 @@
+{
+	"version": "1.0.0",
+	"renderType": "sparrow",
+	"offsets": [
+		0,
+		0
+	],
+	"danceEvery": 1,
+	"scale": 3,
+	"name": "Boyfriend (Keith Pixel)",
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"flipX": false,
+	"startingAnimation": "idle",
+	"isPixel": true,
+	"singTime": 8,
+	"flipY": false,
+	"healthIcon": {
+		"isPixel": false,
+		"offsets": [
+			0,
+			0
+		],
+		"scale": 1,
+		"id": "bf",
+		"flipX": false
+	},
+	"assetPath": "characters/Boyfriend_KeithStyled",
+	"generatedBy": "Nova Character Editor v3.0.1",
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"frameIndices": [],
+			"prefix": "idle",
+			"name": "idle",
+			"looped": true,
+			"flipX": true,
+			"flipY": false,
+			"frameRate": 14,
+			"assetPath": null
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"frameIndices": [],
+			"prefix": "singUP",
+			"name": "singUP",
+			"looped": false,
+			"flipX": true,
+			"flipY": false,
+			"frameRate": 14,
+			"assetPath": null
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"frameIndices": [],
+			"prefix": "singUP-hold",
+			"name": "singUP-hold",
+			"looped": true,
+			"flipX": true,
+			"flipY": false,
+			"frameRate": 14,
+			"assetPath": null
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"frameIndices": [],
+			"prefix": "singDOWN",
+			"name": "singDOWN",
+			"looped": false,
+			"flipX": true,
+			"flipY": false,
+			"frameRate": 14,
+			"assetPath": null
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"frameIndices": [],
+			"prefix": "singDOWN-hold",
+			"name": "singDOWN-hold",
+			"looped": true,
+			"flipX": true,
+			"flipY": false,
+			"frameRate": 14,
+			"assetPath": null
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"frameIndices": [],
+			"prefix": "singLEFT",
+			"name": "singLEFT",
+			"looped": false,
+			"flipX": true,
+			"flipY": false,
+			"frameRate": 14,
+			"assetPath": null
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"frameIndices": [],
+			"prefix": "singLEFT-hold",
+			"name": "singLEFT-hold",
+			"looped": true,
+			"flipX": true,
+			"flipY": false,
+			"frameRate": 14,
+			"assetPath": null
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"frameIndices": [],
+			"prefix": "singRIGHT",
+			"name": "singRIGHT",
+			"looped": false,
+			"flipX": true,
+			"flipY": false,
+			"frameRate": 14,
+			"assetPath": null
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"frameIndices": [],
+			"prefix": "singRIGHT-hold",
+			"name": "singRIGHT-hold",
+			"looped": true,
+			"flipX": true,
+			"flipY": false,
+			"frameRate": 14,
+			"assetPath": null
+		}
+	]
+}

@@ -1,0 +1,60 @@
+import funkin.play.event.ScriptedSongEvent;
+
+class TestEvent extends ScriptedSongEvent {
+
+    // Constructor: register the event
+    public function new() { super("test-event"); }
+
+    // Display name in the chart editor
+    override function getTitle() { return "_Coco Example Event"; }
+
+    // Event logic: executed when the event triggers
+    override function handleEvent(data):Void {
+        // Read schema values
+        var enabled:Bool = data.getBool("bool");
+        var amount:Int = data.getInt("int");
+        var speed:Float = data.getFloat("float");
+        var message:String = data.getString("string");
+        var mode:Int = data.getInt("list");
+
+        // Example output to console
+        trace("Boolean:", enabled);
+        trace("Integer:", amount);
+        trace("Float:", speed);
+        trace("String:", message);
+        trace("List:", mode);
+
+        // Example logic
+        if (enabled) {
+          switch(mode) {
+            case 0: // List 1
+              trace("List 1 active!");
+            case 1: // List 2
+              trace("List 2 active!");
+            case 2: // List 3
+              trace("List 3 active!");
+          }
+        }
+    }
+
+    // Event parameters shown in the editor
+    override function getEventSchema() {
+        return [
+            { name: "boolean", title: "Boolean", type: "bool", defaultValue: false },
+            { name: "integer", title: "Integer", defaultValue: 5, min: 0, max: 10, step: 1.0, type: "float" },
+            { name: "float", title: "Float", type: "float", defaultValue: 1.0 },
+            { name: "string", title: "String", type: "string", defaultValue: "Hello World!" },
+            {
+                name: "list",
+                title: "List",
+                type: "enum",
+                defaultValue: 0,
+                keys: [
+                  "List Option 1" => 0,
+                  "List Option 2" => 1,
+                  "List Option 3" => 2
+                ]
+          }
+        ];
+    }
+}

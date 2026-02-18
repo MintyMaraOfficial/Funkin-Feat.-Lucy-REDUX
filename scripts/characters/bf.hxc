@@ -1,0 +1,18 @@
+import flixel.FlxG;
+import funkin.play.character.MultiAnimateAtlasCharacter;
+import funkin.play.PlayState;
+import StringTools;
+
+class Boyfriend extends MultiAnimateAtlasCharacter {
+	var opponentName:String = "";
+
+	function new() { super('bf'); }
+
+	override function getDeathQuote():Null<String> { // Plays a set of random death quote from a specific character
+		opponentName = PlayState.instance.currentStage.getOpponent().characterId;
+
+		if (StringTools.contains(opponentName, "dad")) { // If the opponent is Neo...
+			return Paths.sound('deathQuotesNeo/Gameover-' + FlxG.random.int(1, 13)); // Play a random Neo death quote
+		}
+	}
+}

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Layla.png">
+<SubTexture name="idle0000" x="466" y="0" width="241" height="683" frameX="-268" frameY="-160" frameWidth="853" frameHeight="841" />
+<SubTexture name="singDOWN0000" x="1489" y="0" width="263" height="414" frameX="-306" frameY="-428" frameWidth="853" frameHeight="841" />
+<SubTexture name="singDOWN0001" x="1032" y="839" width="263" height="557" frameX="-306" frameY="-285" frameWidth="853" frameHeight="841" />
+<SubTexture name="singLEFT0000" x="707" y="0" width="458" height="668" frameX="0" frameY="-179" frameWidth="853" frameHeight="841" />
+<SubTexture name="singLEFT0001" x="1165" y="0" width="324" height="668" frameX="-156" frameY="-179" frameWidth="853" frameHeight="841" />
+<SubTexture name="singRIGHT0000" x="0" y="839" width="588" height="578" frameX="-271" frameY="-248" frameWidth="853" frameHeight="841" />
+<SubTexture name="singRIGHT0001" x="588" y="839" width="444" height="578" frameX="-255" frameY="-248" frameWidth="853" frameHeight="841" />
+<SubTexture name="singUP0000" x="0" y="0" width="233" height="839" frameX="-282" frameY="0" frameWidth="853" frameHeight="841" />
+<SubTexture name="singUP0001" x="233" y="0" width="233" height="729" frameX="-282" frameY="-110" frameWidth="853" frameHeight="841" />
+</TextureAtlas>

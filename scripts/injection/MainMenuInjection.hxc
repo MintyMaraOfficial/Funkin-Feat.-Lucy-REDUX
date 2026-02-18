@@ -1,0 +1,43 @@
+import StringTools;
+import flixel.FlxG;
+import flixel.FlxSprite;
+import funkin.util.Constants;
+import funkin.util.ReflectUtil;
+import funkin.modding.module.Module;
+
+class SkyMainMenuInjection extends Module {
+
+    var verText = "CocoFoxxo Private Build";
+    var lucyWatermark = "Funkin' (feat. Lucy) REDUX | ";
+	var currentState = "";
+
+    function new() { super("minty-menu"); }
+    
+	function onStateChangeEnd() {
+		super.onStateChangeEnd();
+		var daThing = ReflectUtil.getClassNameOf(FlxG.state).split(".");
+
+        var bgScale = (FlxG.onMobile ? 0.6 : 1.2);
+		// trace(daThing[daThing.length - 1]);
+		currentState = daThing[daThing.length - 1];
+		if (daThing[daThing.length - 1] == "MainMenuState") {
+			FlxG.state.leftWatermarkText.text += "\n" + (lucyWatermark + verText);
+			FlxG.state.leftWatermarkText.y -= 15;
+        }
+	}
+
+	function onUpdate(event) {
+        super.onUpdate(event);
+
+        if (currentState == "MainMenuState") {
+            if (!StringTools.contains(FlxG.state.leftWatermarkText.text, "Friday Night Funkin'")) {
+                FlxG.state.leftWatermarkText.text = StringTools.replace(
+                    FlxG.state.leftWatermarkText.text,
+                    Constants.VERSION,
+                    "Friday Night Funkin' " + Constants.VERSION
+                );
+            }
+            FlxG.state.leftWatermarkText.alignment = 'left';
+        }
+    }
+}

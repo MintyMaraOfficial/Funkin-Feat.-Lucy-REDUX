@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Lucy_KeithStyled.png">
+<SubTexture name="idle0000" x="512" y="171" width="126" height="170" frameX="-23" frameY="-16" frameWidth="158" frameHeight="179" />
+<SubTexture name="idle0001" x="384" y="171" width="126" height="170" frameX="-23" frameY="-16" frameWidth="158" frameHeight="179" />
+<SubTexture name="singLEFT0000" x="0" y="187" width="133" height="175" frameX="0" frameY="-14" frameWidth="158" frameHeight="179" />
+<SubTexture name="singLEFT-hold0000" x="133" y="187" width="129" height="172" frameX="-5" frameY="-14" frameWidth="158" frameHeight="179" />
+<SubTexture name="singLEFT-hold0001" x="384" y="0" width="128" height="171" frameX="-6" frameY="-15" frameWidth="158" frameHeight="179" />
+<SubTexture name="singDOWN0000" x="382" y="362" width="125" height="141" frameX="-28" frameY="-47" frameWidth="158" frameHeight="179" />
+<SubTexture name="singDOWN-hold0000" x="259" y="362" width="123" height="145" frameX="-29" frameY="-43" frameWidth="158" frameHeight="179" />
+<SubTexture name="singDOWN-hold0001" x="262" y="187" width="122" height="146" frameX="-29" frameY="-42" frameWidth="158" frameHeight="179" />
+<SubTexture name="singUP0000" x="0" y="0" width="128" height="187" frameX="-23" frameY="0" frameWidth="158" frameHeight="179" />
+<SubTexture name="singUP-hold0000" x="256" y="0" width="128" height="183" frameX="-23" frameY="-3" frameWidth="158" frameHeight="179" />
+<SubTexture name="singUP-hold0001" x="128" y="0" width="128" height="184" frameX="-24" frameY="-2" frameWidth="158" frameHeight="179" />
+<SubTexture name="singRIGHT0000" x="512" y="0" width="131" height="171" frameX="-37" frameY="-15" frameWidth="158" frameHeight="179" />
+<SubTexture name="singRIGHT-hold0000" x="0" y="362" width="130" height="170" frameX="-35" frameY="-16" frameWidth="158" frameHeight="179" />
+<SubTexture name="singRIGHT-hold0001" x="130" y="362" width="129" height="170" frameX="-36" frameY="-16" frameWidth="158" frameHeight="179" />
+</TextureAtlas>

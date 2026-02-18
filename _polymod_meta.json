@@ -1,0 +1,15 @@
+{
+    "title": "Funkin' (feat. Lucy) REDUX",
+    "description": "Random mod by CocoFoxxo, hefty amount of songs, nothing too special.",
+    "contributors": [
+	    {
+            "name": "CocoFoxxo",
+            "role": "Creator, charter, artist, musician, basically most of the mod.",
+            "url": "https://www.youtube.com/@TheEpicKeith101"
+        }
+    ],
+    "homepage": "blank.org",
+    "api_version": "0.8.0",
+    "mod_version": "1.0.0",
+    "license": "CC BY 4.0,MIT"
+}

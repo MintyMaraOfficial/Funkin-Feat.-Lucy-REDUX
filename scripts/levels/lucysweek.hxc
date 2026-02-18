@@ -1,0 +1,26 @@
+import funkin.ui.story.Level;
+import funkin.save.Save;
+
+class LucyWeekLevel extends Level
+{
+	function new() {
+		super('lucysweek');
+	}
+
+  override function isUnlocked():Bool {
+    return true;
+  }
+
+  function hasBeatenLevel():Bool {
+    return Save.instance.hasBeatenLevel('lucysweek');
+  }
+
+  override function getSongDisplayNames(difficultyId:String):Array<String> {
+    if (hasBeatenLevel()) {
+      // Show the song "Infernus" if the level has been beaten
+      return ["Meetup", "Infernus"];
+    } else {
+      return ["Meetup"];
+    }
+  }
+}

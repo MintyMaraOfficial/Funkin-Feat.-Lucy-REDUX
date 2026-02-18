@@ -1,0 +1,44 @@
+import funkin.play.song.Song;
+import funkin.play.PlayState;
+import funkin.Paths;
+import funkin.play.cutscene.VideoCutscene;
+
+import funkin.play.PlayStatePlaylist;
+
+class MeetupSong extends Song {
+    var hasPlayedCutscene:Bool;
+
+	public function new() {
+		super('meetup');
+        hasPlayedCutscene = false;
+	}
+
+    public override function onCountdownStart(event:CountdownScriptEvent):Void {
+	    super.onCountdownStart(event);
+
+        if (!PlayStatePlaylist.isStoryMode) { hasPlayedCutscene = true; }
+
+        if (!hasPlayedCutscene) {
+            trace('Pausing countdown to play a video cutscene (`meetup`)');
+
+            hasPlayedCutscene = true;
+
+            event.cancel(); // CANCEL THE COUNTDOWN!
+
+            startVideo();
+        }
+	}
+
+    function startVideo() { VideoCutscene.play(Paths.videos('brian.mkv')); }
+
+    function onSongRetry(event:ScriptEvent) {
+        super.onSongRetry(event);
+        hasPlayedCutscene = true;
+    }
+
+
+    function onCreate(event:ScriptEvent):Void {
+        super.onCreate(event);
+        hasPlayedCutscene = false;
+    }
+}

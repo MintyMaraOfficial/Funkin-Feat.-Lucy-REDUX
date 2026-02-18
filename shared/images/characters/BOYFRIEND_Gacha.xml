@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="BOYFRIEND_Gacha.png">
+<SubTexture name="idle0000" x="1372" y="620" width="342" height="616" frameX="-62" frameY="-18" frameWidth="485" frameHeight="634" />
+<SubTexture name="idle0001" x="0" y="634" width="343" height="620" frameX="-62" frameY="-14" frameWidth="485" frameHeight="634" />
+<SubTexture name="idle0002" x="695" y="0" width="344" height="621" frameX="-62" frameY="-13" frameWidth="485" frameHeight="634" />
+<SubTexture name="idle0003" x="343" y="634" width="345" height="620" frameX="-62" frameY="-14" frameWidth="485" frameHeight="634" />
+<SubTexture name="idle0004" x="688" y="634" width="345" height="620" frameX="-62" frameY="-14" frameWidth="485" frameHeight="634" />
+<SubTexture name="singUP0000" x="0" y="0" width="349" height="634" frameX="-72" frameY="0" frameWidth="485" frameHeight="634" />
+<SubTexture name="singUP0001" x="349" y="0" width="346" height="630" frameX="-72" frameY="-4" frameWidth="485" frameHeight="634" />
+<SubTexture name="singLEFT0000" x="1039" y="0" width="333" height="621" frameX="-5" frameY="-13" frameWidth="485" frameHeight="634" />
+<SubTexture name="singLEFT0001" x="1730" y="619" width="357" height="618" frameX="0" frameY="-16" frameWidth="485" frameHeight="634" />
+<SubTexture name="singRIGHT0000" x="1372" y="0" width="358" height="620" frameX="-127" frameY="-14" frameWidth="485" frameHeight="634" />
+<SubTexture name="singRIGHT0001" x="1730" y="0" width="375" height="619" frameX="-95" frameY="-15" frameWidth="485" frameHeight="634" />
+<SubTexture name="singDOWN0000" x="1033" y="634" width="337" height="545" frameX="-30" frameY="-89" frameWidth="485" frameHeight="634" />
+<SubTexture name="singDOWN0001" x="0" y="1254" width="361" height="578" frameX="-24" frameY="-56" frameWidth="485" frameHeight="634" />
+</TextureAtlas>

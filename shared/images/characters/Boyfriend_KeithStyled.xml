@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Boyfriend_KeithStyled.png">
+<SubTexture name="idle0000" x="0" y="343" width="118" height="162" frameX="-13" frameY="-18" frameWidth="132" frameHeight="171" />
+<SubTexture name="idle0001" x="0" y="180" width="116" height="163" frameX="-14" frameY="-18" frameWidth="132" frameHeight="171" />
+<SubTexture name="singUP0000" x="0" y="0" width="111" height="180" frameX="-20" frameY="0" frameWidth="132" frameHeight="171" />
+<SubTexture name="singUP-hold0000" x="217" y="0" width="109" height="169" frameX="-19" frameY="-11" frameWidth="132" frameHeight="171" />
+<SubTexture name="singUP-hold0001" x="111" y="0" width="106" height="170" frameX="-21" frameY="-10" frameWidth="132" frameHeight="171" />
+<SubTexture name="singDOWN0000" x="672" y="0" width="114" height="131" frameX="-9" frameY="-48" frameWidth="132" frameHeight="171" />
+<SubTexture name="singDOWN-hold0000" x="342" y="505" width="114" height="138" frameX="-10" frameY="-41" frameWidth="132" frameHeight="171" />
+<SubTexture name="singDOWN-hold0001" x="456" y="505" width="112" height="138" frameX="-11" frameY="-42" frameWidth="132" frameHeight="171" />
+<SubTexture name="singLEFT0000" x="0" y="505" width="114" height="160" frameX="0" frameY="-18" frameWidth="132" frameHeight="171" />
+<SubTexture name="singLEFT-hold0000" x="114" y="505" width="114" height="159" frameX="-8" frameY="-19" frameWidth="132" frameHeight="171" />
+<SubTexture name="singLEFT-hold0001" x="228" y="505" width="114" height="159" frameX="-8" frameY="-19" frameWidth="132" frameHeight="171" />
+<SubTexture name="singRIGHT0000" x="438" y="163" width="114" height="162" frameX="-28" frameY="-18" frameWidth="132" frameHeight="171" />
+<SubTexture name="singRIGHT-hold0000" x="554" y="324" width="115" height="161" frameX="-22" frameY="-19" frameWidth="132" frameHeight="171" />
+<SubTexture name="singRIGHT-hold0001" x="118" y="343" width="113" height="162" frameX="-23" frameY="-19" frameWidth="132" frameHeight="171" />
+<SubTexture name="surprise0000" x="326" y="0" width="112" height="164" frameX="-16" frameY="-16" frameWidth="132" frameHeight="171" />
+<SubTexture name="surprise0001" x="116" y="180" width="116" height="163" frameX="-14" frameY="-18" frameWidth="132" frameHeight="171" />
+<SubTexture name="surprise0002" x="231" y="343" width="118" height="162" frameX="-13" frameY="-18" frameWidth="132" frameHeight="171" />
+<SubTexture name="surprise0003" x="116" y="180" width="116" height="163" frameX="-14" frameY="-18" frameWidth="132" frameHeight="171" />
+<SubTexture name="surprise0004" x="231" y="343" width="118" height="162" frameX="-13" frameY="-18" frameWidth="132" frameHeight="171" />
+<SubTexture name="surprise0005" x="116" y="180" width="116" height="163" frameX="-14" frameY="-18" frameWidth="132" frameHeight="171" />
+<SubTexture name="surprise0006" x="231" y="343" width="118" height="162" frameX="-13" frameY="-18" frameWidth="132" frameHeight="171" />
+<SubTexture name="surprise0007" x="116" y="180" width="116" height="163" frameX="-14" frameY="-18" frameWidth="132" frameHeight="171" />
+<SubTexture name="surprise0008" x="231" y="343" width="118" height="162" frameX="-13" frameY="-18" frameWidth="132" frameHeight="171" />
+<SubTexture name="surprise0009" x="116" y="180" width="116" height="163" frameX="-14" frameY="-18" frameWidth="132" frameHeight="171" />
+<SubTexture name="surprise0010" x="349" y="343" width="118" height="162" frameX="-13" frameY="-18" frameWidth="132" frameHeight="171" />
+<SubTexture name="surprise0011" x="232" y="180" width="116" height="163" frameX="-14" frameY="-18" frameWidth="132" frameHeight="171" />
+<SubTexture name="surprise0012" x="554" y="0" width="118" height="162" frameX="-13" frameY="-18" frameWidth="132" frameHeight="171" />
+<SubTexture name="surprise0013" x="438" y="0" width="116" height="163" frameX="-14" frameY="-18" frameWidth="132" frameHeight="171" />
+<SubTexture name="surprise0014" x="554" y="162" width="118" height="162" frameX="-13" frameY="-18" frameWidth="132" frameHeight="171" />
+</TextureAtlas>
