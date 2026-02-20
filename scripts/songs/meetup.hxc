@@ -1,4 +1,4 @@
-import funkin.play.song.Song;
+/*import funkin.play.song.Song;
 import funkin.play.PlayState;
 import funkin.Paths;
 import funkin.play.cutscene.VideoCutscene;
@@ -41,4 +41,4 @@ class MeetupSong extends Song {
         super.onCreate(event);
         hasPlayedCutscene = false;
     }
-}
+}*/

@@ -7,8 +7,8 @@ import funkin.modding.module.Module;
 
 class SkyMainMenuInjection extends Module {
 
-    var verText = "CocoFoxxo Private Build";
-    var lucyWatermark = "Funkin' (feat. Lucy) REDUX | ";
+    var verText = "CocoFoxxo Prerelease Build";
+    var lucyWatermark = "Funkin' (Feat. Lucy) REDUX | ";
 	var currentState = "";
 
     function new() { super("minty-menu"); }
